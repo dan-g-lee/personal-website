@@ -1,0 +1,40 @@
+#section-main {
+    /*background-image: url("../images/pvbeach.png");*/
+
+}
+
+h1 {
+    color: rgba(70, 70, 70, 1);
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-item {
+    display: block;
+    margin: 40px;
+}
+
+.flex-item img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .flex-item {
+        display: block;
+        margin: 2vh;
+    }
+}

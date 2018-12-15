@@ -1,0 +1,17 @@
+#nav {
+    /*top: 0px;
+    height: 50px;*/
+    width: 100%;
+    background: #aaa;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    z-index: 10;
+}
+
+#nav li {
+    display: inline;
+    color: #000;
+    padding: 50px;
+    font-size: 1.5em;
+}
